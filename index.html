@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div Interativa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="Copiar" onclick="Copiar()">Copiar CSS</button>
+    <header>
+      <div class="headerContainer">
+        <h1>Div Interativa</h1>
+        <h2>visualizador de quadrados & retângulos</h2>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div id="minhaDiv"></div>
+        <div class="input-block">
+          <p>
+            Cor do Elemento:
+            <input type="color" id="minhaCor" value="#6d6c6c" />
+          </p>
+          <p>
+            Arredondamento Esquerda/Cima:
+            <input type="number" id="b1" value="0" />
+          </p>
+          <p>
+            Arredondamento Direita/Cima:
+            <input type="number" id="b2" value="0" />
+          </p>
+          <p>
+            Arredondamento Direita/Baixo:
+            <input type="number" id="b3" value="0" />
+          </p>
+          <p>
+            Arredondamento Esquerda/Baixo:
+            <input type="number" id="b4" value="0" />
+          </p>
+          <p>
+            Largura do Elemento:
+            <input type="number" id="Largura" value="100" />
+          </p>
+          <p>
+            Altura do Elemento:
+            <input type="number" id="Altura" value="100" />
+          </p>
+          <input type="button" value="Modificar" onclick="modificarDiv()" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="https://linktr.ee/nathanhgo" target="_blank"
+        >Feito com &#x1F49C; por Neight Waste</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
